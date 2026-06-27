@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:9999/api';
+const BASE_URL = 'https://college-event-management-system-backend-1.onrender.com/api';
 
 const api = axios.create({ baseURL: BASE_URL });
 
